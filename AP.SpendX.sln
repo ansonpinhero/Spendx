@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.API.Web", "src\AP.SpendX.API.Web\AP.SpendX.API.Web.csproj", "{862ABEAB-0513-4FE4-9564-556EE4D510EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.Core", "src\AP.SpendX.Core\AP.SpendX.Core.csproj", "{1CABC8C1-FF12-4895-A3E2-1C0D16B4F4CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.Services", "src\AP.SpendX.Services\AP.SpendX.Services.csproj", "{C9D68990-0990-406D-834C-9E65CD18924D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{862ABEAB-0513-4FE4-9564-556EE4D510EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862ABEAB-0513-4FE4-9564-556EE4D510EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862ABEAB-0513-4FE4-9564-556EE4D510EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862ABEAB-0513-4FE4-9564-556EE4D510EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CABC8C1-FF12-4895-A3E2-1C0D16B4F4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CABC8C1-FF12-4895-A3E2-1C0D16B4F4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CABC8C1-FF12-4895-A3E2-1C0D16B4F4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CABC8C1-FF12-4895-A3E2-1C0D16B4F4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D68990-0990-406D-834C-9E65CD18924D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D68990-0990-406D-834C-9E65CD18924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D68990-0990-406D-834C-9E65CD18924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D68990-0990-406D-834C-9E65CD18924D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,6 @@
+@AP.SpendX.API.Web_HostAddress = http://localhost:5271
+
+GET {{AP.SpendX.API.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
