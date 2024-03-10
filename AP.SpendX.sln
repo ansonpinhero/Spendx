@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.Core", "src\AP.Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.Services", "src\AP.SpendX.Services\AP.SpendX.Services.csproj", "{C9D68990-0990-406D-834C-9E65CD18924D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AP.SpendX.DB", "src\AP.SpendX.DB\AP.SpendX.DB.csproj", "{C01F80A4-69B7-4310-8CCA-5475E03271F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C9D68990-0990-406D-834C-9E65CD18924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D68990-0990-406D-834C-9E65CD18924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D68990-0990-406D-834C-9E65CD18924D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01F80A4-69B7-4310-8CCA-5475E03271F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01F80A4-69B7-4310-8CCA-5475E03271F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01F80A4-69B7-4310-8CCA-5475E03271F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01F80A4-69B7-4310-8CCA-5475E03271F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
